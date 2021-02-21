@@ -42,6 +42,7 @@ function Counter(){
             <input
                 onChange={e => {
                     console.log(e.target.checked);
+                    alert("hello");
                 }}
                 type='checkbox'
             />
